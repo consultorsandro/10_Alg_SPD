@@ -2,7 +2,7 @@ use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 
 // Estrutura para representar uma aresta com destino e peso
-#[derive(Clone)]
+#[derive(Clone)]// Adiciona Clone para permitir cópias
 struct Edge {
     to: usize,
     weight: i32,
